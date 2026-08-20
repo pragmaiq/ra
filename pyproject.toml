@@ -1,0 +1,14 @@
+[project]
+name = "ra"
+version = "0.1.0"
+description = "Simple and efficient data cleaning pipeline"
+readme = "README.md"
+requires-python = ">=3.14.7"
+dependencies = []
+
+[project.scripts]
+ra = "ra:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
